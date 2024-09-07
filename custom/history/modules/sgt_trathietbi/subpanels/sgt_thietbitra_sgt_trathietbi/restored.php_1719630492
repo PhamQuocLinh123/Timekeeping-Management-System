@@ -1,0 +1,42 @@
+<?php
+// created: 2024-06-29 10:08:07
+$layout_defs = array (
+  'name' => 
+  array (
+    'vname' => 'LBL_NAME',
+    'widget_class' => 'SubPanelDetailViewLink',
+    'width' => '45%',
+    'default' => true,
+  ),
+  'soluong' => 
+  array (
+    'type' => 'int',
+    'default' => true,
+    'vname' => 'LBL_SOLUONG',
+    'width' => '10%',
+  ),
+  'tinhtrang' => 
+  array (
+    'type' => 'enum',
+    'studio' => 'visible',
+    'vname' => 'LBL_TINHTRANG',
+    'width' => '10%',
+    'default' => true,
+  ),
+  'edit_button' => 
+  array (
+    'vname' => 'LBL_EDIT_BUTTON',
+    'widget_class' => 'SubPanelEditButton',
+    'module' => 'sgt_thietbitra',
+    'width' => '4%',
+    'default' => true,
+  ),
+  'remove_button' => 
+  array (
+    'vname' => 'LBL_REMOVE',
+    'widget_class' => 'SubPanelRemoveButton',
+    'module' => 'sgt_thietbitra',
+    'width' => '5%',
+    'default' => true,
+  ),
+);

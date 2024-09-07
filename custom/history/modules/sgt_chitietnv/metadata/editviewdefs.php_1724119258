@@ -1,0 +1,113 @@
+<?php
+$module_name = 'sgt_chitietnv';
+$viewdefs [$module_name] = 
+array (
+  'EditView' => 
+  array (
+    'templateMeta' => 
+    array (
+      'maxColumns' => '2',
+      'widths' => 
+      array (
+        0 => 
+        array (
+          'label' => '10',
+          'field' => '30',
+        ),
+        1 => 
+        array (
+          'label' => '10',
+          'field' => '30',
+        ),
+      ),
+      'useTabs' => false,
+      'tabDefs' => 
+      array (
+        'DEFAULT' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+      ),
+    ),
+    'panels' => 
+    array (
+      'default' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'manv',
+            'label' => 'LBL_MANV',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 'name',
+          1 => 'assigned_user_name',
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'ngaychamcong',
+            'label' => 'LBL_NGAYCHAMCONG',
+          ),
+          1 => 
+          array (
+            'name' => 'date_entered',
+            'comment' => 'Date record created',
+            'label' => 'LBL_DATE_ENTERED',
+          ),
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'tg_giocong',
+            'label' => 'LBL_TG_GIOCONG',
+          ),
+          1 => 
+          array (
+            'name' => 'tg_ngaycong',
+            'label' => 'LBL_TG_NGAYCONG',
+          ),
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'tg_ngaythuong',
+            'label' => 'LBL_TG_NGAYTHUONG',
+          ),
+          1 => '',
+        ),
+        5 => 
+        array (
+          0 => 
+          array (
+            'name' => 'tg_chunhat',
+            'label' => 'LBL_TG_CHUNHAT',
+          ),
+          1 => 
+          array (
+            'name' => 'tg_ngayle',
+            'label' => 'LBL_TG_NGAYLE',
+          ),
+        ),
+        6 => 
+        array (
+          0 => 'description',
+          1 => 
+          array (
+            'name' => 'tg_tangca',
+            'label' => 'LBL_TG_TANGCA',
+          ),
+        ),
+      ),
+    ),
+  ),
+);
+;
+?>

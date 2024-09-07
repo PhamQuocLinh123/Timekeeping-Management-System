@@ -1,0 +1,8 @@
+<?php
+// WARNING: The contents of this file are auto-generated
+
+
+//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
+$mod_strings['LBL_SGT_BANGLUONG_SGT_DUAN_FROM_SGT_DUAN_TITLE'] = 'Dự án';
+$mod_strings['LBL_SGT_DSLUONG_SGT_BANGLUONG_FROM_SGT_DSLUONG_TITLE'] = 'DS nhận lương';
+

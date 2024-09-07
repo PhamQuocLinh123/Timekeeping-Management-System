@@ -1,0 +1,84 @@
+<?php
+// created: 2024-04-26 18:38:49
+$layout_defs = array (
+  'top_buttons' => 
+  array (
+    0 => 
+    array (
+      'widget_class' => 'SubPanelTopCreateButton',
+    ),
+    1 => 
+    array (
+      'widget_class' => 'SubPanelTopSelectButton',
+      'popup_module' => 'h_nhanviensanxuat',
+    ),
+  ),
+  'where' => '',
+  'list_fields' => 
+  array (
+    'name' => 
+    array (
+      'vname' => 'LBL_NAME',
+      'widget_class' => 'SubPanelDetailViewLink',
+      'width' => '45%',
+      'default' => true,
+    ),
+    'nhanvien' => 
+    array (
+      'type' => 'relate',
+      'studio' => 'visible',
+      'vname' => 'LBL_NHANVIEN',
+      'id' => 'SGT_NHANVIEN_ID_C',
+      'link' => true,
+      'width' => '10%',
+      'default' => true,
+      'widget_class' => 'SubPanelDetailViewLink',
+      'target_module' => 'sgt_nhanvien',
+      'target_record_key' => 'sgt_nhanvien_id_c',
+    ),
+    'ma_nv' => 
+    array (
+      'type' => 'varchar',
+      'vname' => 'LBL_MA_NV',
+      'width' => '10%',
+      'default' => true,
+    ),
+    'tonggiosang' => 
+    array (
+      'type' => 'varchar',
+      'vname' => 'LBL_TONGGIOSANG',
+      'width' => '10%',
+      'default' => true,
+    ),
+    'tonggiochieu' => 
+    array (
+      'type' => 'varchar',
+      'vname' => 'LBL_TONGGIOCHIEU',
+      'width' => '10%',
+      'default' => true,
+    ),
+    'tonggiolam' => 
+    array (
+      'type' => 'float',
+      'vname' => 'LBL_TONGGIOLAM',
+      'width' => '10%',
+      'default' => true,
+    ),
+    'dacbiet' => 
+    array (
+      'type' => 'enum',
+      'studio' => 'visible',
+      'vname' => 'LBL_DACBIET',
+      'width' => '10%',
+      'default' => true,
+    ),
+    'edit_button' => 
+    array (
+      'vname' => 'LBL_EDIT_BUTTON',
+      'widget_class' => 'SubPanelEditButton',
+      'module' => 'h_nhanviensanxuat',
+      'width' => '4%',
+      'default' => true,
+    ),
+  ),
+);

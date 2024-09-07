@@ -1,0 +1,3 @@
+<?php
+// created: 2024-04-27 11:10:05
+$mod_strings['LBL_CALLS'] = 'Cuộc gọi';

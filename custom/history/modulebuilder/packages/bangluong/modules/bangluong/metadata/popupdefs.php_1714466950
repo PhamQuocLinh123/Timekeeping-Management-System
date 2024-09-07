@@ -1,0 +1,28 @@
+<?php
+$popupMeta = array (
+    'moduleMain' => 'h_bangluong',
+    'varName' => 'h_bangluong',
+    'orderBy' => 'h_bangluong.name',
+    'whereClauses' => array (
+  'name' => 'h_bangluong.name',
+  'ngaytinhluong' => 'h_bangluong.ngaytinhluong',
+),
+    'searchInputs' => array (
+  1 => 'name',
+  4 => 'ngaytinhluong',
+),
+    'searchdefs' => array (
+  'name' => 
+  array (
+    'name' => 'name',
+    'width' => '10%',
+  ),
+  'ngaytinhluong' => 
+  array (
+    'type' => 'date',
+    'label' => 'LBL_NGAYTINHLUONG',
+    'width' => '10%',
+    'name' => 'ngaytinhluong',
+  ),
+),
+);
